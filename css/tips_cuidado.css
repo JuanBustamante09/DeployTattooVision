@@ -1,0 +1,145 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #fff;
+}
+
+#cuidados{
+    background-color: #ffffff;
+    height: auto;
+}
+
+.content-article-tips-1{
+    
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.title-tips1{
+    color: #000;
+    font-size: 35px;
+    padding: 30px 30px;
+}
+
+.slogan-text1{
+    margin-top: 4.3rem;
+    font-size: 18px;
+    color: #000000;
+}
+
+.article-tips-1 .tips{
+    color: #000;
+    font-size: 22px;
+    margin: 30px;
+}
+
+.txt{
+    margin: -15px 0 20px 30px;
+    font-size: 17px;
+    color: #000;
+}
+
+.article-tips-1 hr{
+    width: 28rem;
+    height: .1rem;
+    background-color: #000;
+    margin-left: 30px;
+}
+
+.article-tips-1 .boton{
+    font-size: 15px;
+    font-weight: bold;
+    margin: 1.5rem 12rem;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: #fff;
+}
+
+.boton:focus{
+    background-color: #fff;
+}
+
+.img-reference-tips1{
+    width: 32rem;
+    height: 39rem;
+    border-radius: 16px;
+    margin-top: 4rem;
+    object-fit: cover;
+    
+}
+/*------------------------------------------------*/
+
+
+.article-tips-2{
+    float: right;
+    margin-right: 40px;
+}
+
+.article-tips-2 .titulo1{
+    margin: 30px;
+    font-size: 35px;
+}
+
+.slogan-text2{
+    margin: 2rem 4.6rem 0rem 0rem;
+    font-size: 18px;
+    text-align: right;
+    color: #000000;
+}
+
+.article-tips-2 .tips{
+    margin: 30px;
+    font-size: 22px;
+}
+
+.article-tips-2 .txt{
+    margin: -15px 0 20px 30px;
+    font-size: 18px;
+}
+
+.article-tips-2 hr{
+    width: 28rem;
+    height: .1rem;
+    background-color: #000;
+    margin-left: 30px;
+}
+
+.article-tips-2 .boton{
+    font-size: 15px;
+    font-weight: bold;
+    margin: 1.5rem 12rem;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: #fff;
+}
+
+.img-reference-tips2{
+    position: relative;
+    width: 32rem;
+    height: 36rem;
+    border-radius: 16px; 
+    object-fit: cover;
+    margin: 3.7rem 0rem 0rem 6rem;
+} 
+
+.cosa{
+    background-color: #fff;
+}
+
+/* .lolla1{
+    background-color: aqua;
+    width: 100%;
+    margin-right: 100%;
+    text-align: center;
+    min-width: 100%;
+}
+.lolla2{
+    background-color: tomato;
+    
+} */

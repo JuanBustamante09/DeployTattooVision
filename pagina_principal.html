@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/logop.jpeg">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link rel="stylesheet" href="css/whats.css" />
+    <link rel="stylesheet" href="css/whats2.css" />
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <link rel="stylesheet" href="css/pagina_principal.css">
+    <link rel="stylesheet" href="css/tips_cuidado.css">
+    <title>TattooVision</title>
+</head>
+
+<body> 
+    <div class="center" id="loader">
+        <div class="preloader-wrapper big active">
+            <div class="spinner-layer spinner-blue">
+                <div class="circle-clipper left">
+                    <div class="circle"></div>
+                </div>
+                <div class="gap-patch">
+                    <div class="circle"></div>
+                </div>
+                <div class="circle-clipper right">
+                    <div class="circle"></div>
+                </div>
+            </div>
+
+            <div class="spinner-layer spinner-red">
+                <div class="circle-clipper left">
+                    <div class="circle"></div>
+                </div>
+                <div class="gap-patch">
+                    <div class="circle"></div>
+                </div>
+                <div class="circle-clipper right">
+                    <div class="circle"></div>
+                </div>
+            </div>
+
+            <div class="spinner-layer spinner-yellow">
+                <div class="circle-clipper left">
+                    <div class="circle"></div>
+                </div>
+                <div class="gap-patch">
+                    <div class="circle"></div>
+                </div>
+                <div class="circle-clipper right">
+                    <div class="circle"></div>
+                </div>
+            </div>
+
+            <div class="spinner-layer spinner-green">
+                <div class="circle-clipper left">
+                    <div class="circle"></div>
+                </div>
+                <div class="gap-patch">
+                    <div class="circle"></div>
+                </div>
+                <div class="circle-clipper right">
+                    <div class="circle"></div>
+                </div>
+            </div>
+        </div>
+        <p class="txtload">loading...</p>
+    </div>
+    <div class="hide" id="contenido">
+        <!--Menu de navegacion-->
+        <header>
+            <nav class="menu">
+                <div class="nav-wrapper">
+                    <a href="#" class="brand-logo"><img src="img/log1.png" alt="" class="logo2"></a>
+                    <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                    <ul class="right hide-on-med-and-down">
+                        <li><a class="waves-effect" href="#">Inicio</a></li>
+                        <li><a class="waves-effect" href="quienes_somos.html">Quienes somos</a></li>
+                        <li><a class="waves-effect" href="#estilos">Estilos de tatuajes</a></li>
+                        <li><a class="waves-effect" href="#cuidados">Tips de cuidado</a></li>
+                        <li><a class="waves-effect lista" href="#horarios">Horarios de atencion</a></li>
+                        <li><a class="waves-effect" href="agendar_citas.html">Agendar cita</a></li>
+                        <li><a onclick="return confirm('Esta seguro de Cerrar Sesion')" href="index.html">Cerrar
+                                Sesion</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <ul class="sidenav" id="mobile-demo">
+            <li>
+                <div class="user-view">
+                    <div class="background">
+                        <img src="img/fondo2.2.png" class="logo3">
+                    </div>
+                    <a href="#user"><img class="circle" src="img/fondo1.4.png"></a>
+                    <a href="#name"><span class="white-text name">Javier Bonet González</span></a>
+                    <a href="#email"><span class="white-text email">elbenet@gmail.com</span></a>
+                </div>
+            </li>
+            <li><a onclick="return confirm('Esta seguro de Cerrar Sesion')" href="index.html"><i
+                        class="material-icons">cloud</i>Cerrar Sesion</a></li>
+            <li>
+                <div class="divider"></div>
+            </li>
+            <li><a class="subheader">Menu</a></li>
+            <li><a class="waves-effect" href="#">Inicio</a></li>
+            <li><a class="waves-effect" href="quienes_somos.html">👤 Quienes somos</a></li>
+            <li><a class="waves-effect" href="#estilos">📝 Estilos de tatuajes</a></li>
+            <li><a class="waves-effect" href="#cuidados">🏥 Tips de cuidado</a></li>
+            <li><a class="waves-effect lista" href="#horarios">⏲ Horarios de atencion</a></li>
+            <li><a class="waves-effect" href="agendar_citas.html">📆 Agendar cita</a></li>
+            <li><a class="waves-effect" href="citas.html">📆 citas 📝</a></li>
+        </ul>
+        <!------------------------------------------------------------------------------------------->
+        <div class="content">
+            <small>Bienvenidos a</small>
+            <h1>TattooVision</h1>
+            <h3>Un estudio de tatuajes donde viviras experiencias unicas</h3>
+
+            <div class="row">
+                <a>Portafolio<span>&#x2192;</span></a>
+                <span>Explora mas sobre mi<br> y mis especialidades de tatuaje.</span>
+            </div>
+        </div>
+        <section class="fondo"></section>
+        <!---------------------->
+        <hr>
+        <!--Estilos de tatuajes-->
+        <div class="subtitle">
+            <h2 id="estilos">Estilos de tatuajes</h2>
+        </div>
+        <div class="container-card">
+
+            <div class="card">
+                <figure>
+                    <img src="img/port1.jpg">
+                </figure>
+                <div class="contenido-card">
+                    <h3>Realista</h3>
+                    <p>El realismo en los tatuajes sol los estilos más atrevidos que existen, pues a menudo suponen
+                        retratos de rostros o lugares muy concretos, representados con un detalle casi fotográfico.</p>
+                    <a href="realista.html">Ver Màs</a>
+                </div>
+            </div>
+            <div class="card">
+                <figure>
+                    <img src="img/port2.jpg">
+                </figure>
+                <div class="contenido-card">
+                    <h3>Acuarela</h3>
+                    <p> los tatuajes de la acuarela imitan un proceso artístico, empleando las salpicaduras y rayas del
+                        color para dar la misma impresión que la pintura que es utilizada en lona o papel. </p>
+                    <a href="acuarela.html">Ver Màs</a>
+                </div>
+            </div>
+            <div class="card">
+                <figure>
+                    <img src="img/port3.jpg">
+                </figure>
+                <div class="contenido-card">
+                    <h3>Minimalista</h3>
+                    <p> Los tatuajes minimalistas destacan por utilizar trazos simples lo que los hace más atractivos y
+                        son muy recomendables en personas que buscan su primer tatuaje.</p>
+                    <a href="minimalistas.html">Ver Màs</a>
+                </div>
+            </div>
+        </div>
+        <div class="container-card">
+
+            <div class="card">
+                <figure>
+                    <img src="img/port4.jpg">
+                </figure>
+                <div class="contenido-card">
+                    <h3>Geométrico</h3>
+                    <p>Los tatuajes geométricos se caracterizan por ser diseños complejos que pueden emplear la
+                        asimetría y repetición para crear un diseño más grande y llamativo.</p>
+                    <a href="geometricos.html">Ver Màs</a>
+                </div>
+            </div>
+            <div class="card">
+                <figure>
+                    <img src="img/port5.jpg">
+                </figure>
+                <div class="contenido-card">
+                    <h3>Tradicional</h3>
+                    <p>El tattoo tradicional se caracteriza por algunos detalles básicos: Lineas gruesas, firmes y sin
+                        modulación. Con colores primarios sólidos, rojos, amarillos, verdes, azules y mucho negro</p>
+                    <a href="tradicionales.html">Ver Màs</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <figure>
+                    <img src="img/port6.jpg">
+                </figure>
+                <div class="contenido-card">
+                    <h3>Tribal</h3>
+                    <p>Los tatuajes tribales son los estilos de tatuaje basados en una estética más antigua y ancestral.
+                        Casi siempre de color negro, a menudo utilizando simetría y diseño geométrico.</p>
+                    <a href="tribales.html">Ver Màs</a>
+                </div>
+            </div>
+        </div>
+        <div class="container-card">
+
+            <div class="card">
+                <figure>
+                    <img src="img/port7.jpg">
+                </figure>
+                <div class="contenido-card">
+                    <h3>Ilustraciones</h3>
+                    <p>Son tatuajes que toman inspiración tanto del realismo como de estilos más tradicionales.Esta rama
+                        del tatuaje engloba prácticamente todos los estilos de dibujo que puedas ver o encontrar en
+                        libros de ilustración, como cómics, dibujos o pinturas</p>
+                    <a href="ilustracion.html">Ver Màs</a>
+                </div>
+            </div>
+            <div class="card">
+                <figure>
+                    <img src="img/port8.jpg">
+                </figure>
+                <div class="contenido-card">
+                    <h3>Neotradicional</h3>
+                    <p> estos emplean contornos en negrita y un sombreado cuidadoso y preciso, pero a diferencia de los
+                        tradicionales, son más detallados, más experimentales con el color y la mezcla, aunque con una
+                        simbología limitada y la técnica específica del tatuaje tradicional.</p>
+                    <a href="Neotradicionales.html">Ver Màs</a>
+                </div>
+            </div>
+            <div class="card">
+                <figure>
+                    <img src="img/port9.jpg">
+                </figure>
+                <div class="contenido-card">
+                    <h3>Góticos</h3>
+                    <p>Los tatuajes góticos se relacionan con un estilo de vida o subcultura underground más que a lo
+                        que el arte gótico tradicional se refiere. Es un tipo de tatuaje que aporta una sensación de
+                        oscuridad o desolación, en el que suelen predominar las calaveras.</p>
+                    <a href="goticos.html">Ver Màs</a>
+                </div>
+            </div>
+        </div>
+        <div class="container-card">
+
+            <div class="card">
+                <figure>
+                    <img src="img/port10.jpg">
+                </figure>
+                <div class="contenido-card">
+                    <h3>Escritos</h3>
+                    <p>Los tatuajes escritos son un tatuaje muy popular que puede variar en su contenido y forma. En la
+                        actualidad destacan los escritos menos exagerados, con frases representativas y con un estilo de
+                        caligrafía a mano.</p>
+                    <a href="Escritos.html">Ver Màs</a>
+                </div>
+            </div>
+            <div class="card">
+                <figure>
+                    <img src="img/port11.jpg">
+                </figure>
+                <div class="contenido-card">
+                    <h3>Dotwork</h3>
+                    <p>El estilo de tatuaje dotwork o punteado es uno de los más modernos y emplea muchos puntos
+                        diminutos en áreas donde normalmente se puede usar sombra y se crean formas con estos puntos. Se
+                        basa en el impresionismo.</p>
+                    <a href="Dotwork.html">Ver Màs</a>
+                </div>
+            </div>
+            <div class="card">
+                <figure>
+                    <img src="img/port12.jpg">
+                </figure>
+                <div class="contenido-card">
+                    <h3>Japonés</h3>
+                    <p>El arte japonés es uno de las artes más antiguos del tatuaje. Contiene diseños detallados que a
+                        menudo cubren grandes áreas del cuerpo. Este estilo sigue unas pautas artísticas muy estrictas
+                        para dar una imagen tradicional japonesa.</p>
+                    <a href="Japonéses.html">Ver Màs</a>
+                </div>
+            </div>
+        </div>
+        <!---------------------->
+        <hr>
+        <!--------------Tips de cuidado------------->
+        <article id="cuidados">
+            <div class="row content-article-tips-1">
+                <div class="input-field col s12">
+                    <div class="input-field col s6">
+                        <div class="article-tips-1">
+                            <h2 class="title-tips1">Tips que debes tener en cuenta<br> para el cuidado de tu tatuaje</h2>
+                            <hr>
+                            <h4 class="tips"> Permite que el tatuaje<br> se seque completamente</h4>
+                            <p class="txt">Con una toallita de papel delgada dar siempre<br> toquecitos para secar el tatuaje, no lo frotes<br> porque lo puedes irritar.</p>
+                            <hr>
+                            <h4 class="tips">Usa un protector solar, una<br> vez tu tatuaje haya cicatrizado</h4>
+                            <hr>
+                            <h4 class="tips">Aplica una capa muy fina de ungüento<br> para hidratar la zona tatuada y ayudar<br> a su cicatrización</h4>
+                            <hr>
+                            <h4 class="tips">Pon agua fria entre tus manos y<br> humedece la zona tatuada con cuidado</h4>
+                            <hr>
+                            <h4 class="tips">Frota jabón suave y sin fragancia<br> sobre la zona tatuada para retirar<br> el exceso de tinta,sangre y plasma.</h4>
+                            <hr>     
+                            <button class="boton">Ver Más →</button>
+                        </div>    
+                    </div>
+                    <div class="input-field col s6">
+                        <p class="slogan-text1">Tips interesantes que quizas no habias<br> escuchado antes acerca del cuidado de un tatuaje</p>
+                        <img src="img/cui1.jpeg" alt="image" class="img-reference-tips1">
+                    </div>
+                </div>
+            </div>
+            <div class="row content-article-tips-2">
+                <div class="input-field col s12">
+                    <div class="input-field col s6 cosa">
+                        <p class="slogan-text2">Tips que quizas no conocias<br>acerca del cuidado de un tatuaje</p>
+                        <img src="img/cui2.jpg" alt="image" class="img-reference-tips2">  
+                    </div>
+                    <div class="input-field col s6 cds">
+                        <div class="article-tips-2">
+                            <h2 class="titulo1">Cosas que debes evitar hacer para<br> tener un buen cuidado de tu tatuaje</h2>
+                            <hr>
+                            <h4 class="tips">Retirar el plástico antes del tiempo requerido</h4>
+                            <p class="txt">No tratar que quitarse el plastico<br> sin el consentimiento del tatuador</p>
+                            <hr>
+                            <h4 class="tips">No exponer el nuevo tatuaje a la luz solar</h4>
+                            <hr>
+                            <h4 class="tips">No hidratar el tatuaje con loción</h4>
+                            <hr>
+                            <h4 class="tips">No volver a vendar el tatuaje<br> sin el consentimiento del tatuador</h4>
+                            <hr>
+                            <h4 class="tips">No ensuciar tu tatuaje</h4>
+                            <hr>
+                            <button class="boton">Ver Más →</button>
+                        </div>
+                    </div>
+                </div>    
+            </div>
+        </article>
+        <!--------------------------------------2------------------------------>
+        <hr>
+        <!----Horarios de atención---->
+        <div class="horarios">
+            <h2 id="horarios">Horarios de atención</h2>
+            <h3>Belen altavista</h3>
+            <h5>calle18n110a59</h5>
+            <!--es un icono importado de un sitio web-->
+            <svg xmlns="http://www.w3.org/2000/svg" class="reloj" fill="currentColor" viewBox="0 0 16 16">
+                <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z" />
+                <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z" />
+            </svg>
+            <!----------------------------------------->
+
+            <p>Lunes a viernes: 9:00 am a 10:00 pm</p>
+            <p>Sabados Y Domingos: 10:00 am a 8:00 pm </p>
+            <p>Festivos: Cerrado</p>
+        </div>
+        <div class="ubi">
+            <h2>Ubicación</h2>
+            <!--es un mapa importado de google maps-->
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2192.314006649449!2d-75.63511984191747!3d6.22324156527829!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e442b426c25794f%3A0x27ff92e8e88363d8!2sVisionTattoo!5e1!3m2!1ses!2sco!4v1648427325199!5m2!1ses!2sco"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <!----------------whatsapp??----------------------->
+        <div class="cont">
+            <div class="nav-bottom">
+                <div class="popup-whatsapp fadeIn">
+                    <div class="content-whatsapp -top">
+                        <button type="button" class="closePopup">
+                            <i class="material-icons icon-font-color">close</i>
+                        </button>
+
+                        <p>
+                            <img src="img/logop.jpeg" width="50" /> Hola, ¿en que podemos ayudarle?
+                        </p>
+                    </div>
+                    <div class="content-whatsapp -bottom">
+                        <input class="whats-input" id="whats-in" type="text" placeholder="Enviar mensaje..." />
+
+                        <button class="send-msPopup" id="send-btn" type="button">
+                            <i class="material-icons icon-font-color--black">send</i>
+                        </button>
+                    </div>
+                </div>
+                <button type="button" id="whats-openPopup" class="whatsapp-button">
+                    <div class="float">
+                        <i class="fa fa-whatsapp my-float"></i>
+                    </div>
+                </button>
+                <div class="circle-anime"></div>
+            </div>
+        </div>
+        <!-----------------------options??----------------------->
+        <!--<div class="cont3">
+            <div class="fixed-action-btn lalo">
+                <a class="btn-floating btn-large pulse black">
+                    <i class="large material-icons">mode_edit</i>
+                </a>
+                <ul>
+                    <li><a class="btn-floating red"><i class="material-icons">insert_chart</i></a></li>
+                    <li><a class="btn-floating yellow darken-1"><i class="material-icons">format_quote</i></a></li>
+                    <li><a class="btn-floating green"><i class="material-icons">publish</i></a></li>
+                    <li><a class="btn-floating blue"><i class="material-icons">attach_file</i></a></li>
+                </ul>
+            </div>
+        </div>-->
+        <!-------------------------------------------------------->
+        <hr>
+    
+
+        <!--<script src="https://account.snatchbot.me/script.js"></script><script>window.sntchChat.Init(309011)</script> -->
+
+        <script>
+            window.addEventListener('mouseover', initLandbot, { once: true });
+            window.addEventListener('touchstart', initLandbot, { once: true });
+            var myLandbot;
+            function initLandbot() {
+                if (!myLandbot) {
+                    var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true;
+                    s.addEventListener('load', function () {
+                        var myLandbot = new Landbot.Livechat({
+                            configUrl: 'https://storage.googleapis.com/landbot.online/v3/H-1453866-XDUMTDVHI2DBHGOI/index.json',
+                        });
+                    });
+                    s.src = 'https://cdn.landbot.io/landbot-3/landbot-3.0.0.js';
+                    var x = document.getElementsByTagName('script')[0];
+                    x.parentNode.insertBefore(s, x);
+                }
+            }
+        </script>
+    
+        <!----Pie de pagina---->
+        <footer>
+            <footer class="pie-pagina">
+                <div class="grupo-1">
+                    <div class="box">
+                        <figure>
+                            <a href="#">
+                                <img src="img/log1.png" alt="Logo tattoo">
+                            </a>
+                        </figure>
+                    </div>
+                    <div class="box">
+                        <h2>SOBRE NOSOTROS</h2>
+                        <p>Estudio TattooVision donde viviras una gran experiencia llevando a cabo un resultado solido y
+                            de todo tu gusto, donde tu idea principal</p>
+                        <p>se complementara y por resultado te la llevaras plasmado en la piel, una pieza unica y
+                            cargada de toda la buena vibra de estudio TattooVision.</p>
+                    </div>
+                    <div class="box">
+                        <h2>SIGUENOS</h2>
+                        <div class="red-social">
+                            <a href="https://www.facebook.com/davidalexander.ramirez.528" target="_Blank"><img
+                                    src="img/face.png" alt="facebook"></a>
+                            <a href="https://www.instagram.com/davidtatoovision/?hl=es-la" target="_Blank"><img
+                                    src="img/insta.png" alt="instagram"></a>
+                            <a href="#"><img src="img/wasa.png" alt="whastaspp"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="grupo-2">
+                    <small>&copy; 2022 <b>TattooVision</b> - Todos los Derechos Reservados.</small>
+                </div>
+            </footer>
+    </div>
+
+
+
+    <script src="js/jquery-3.6.1.min.js"></script>
+    <script src="js/materialize.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/script2.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('.sidenav').sidenav();
+            $('.materialboxed').materialbox();
+            $('.modal').modal();
+            $('.fixed-action-btn').floatingActionButton();
+        });
+
+
+        document.addEventListener('DOMContentLoaded', function () {
+            var elems = document.querySelectorAll('.fixed-action-btn');
+            var instances = M.FloatingActionButton.init(elems, {
+                direction: 'left',
+                hoverEnabled: false
+            });
+        });
+    </script>
+    <!--importar iconos para poder utilizarlos-->
+    <script src="https://kit.fontawesome.com/c4254e24a8.js"></script>
+</body>
+
+</html>

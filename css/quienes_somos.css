@@ -1,0 +1,73 @@
+/*-------quienes somos-------*/
+*{
+    margin: 0;
+    padding: 0;    
+}
+
+body{
+    background-image: linear-gradient(135deg, #000 0%, #051644 130%);  /*lo que hace es dar un degradado de dos colores a 135 grados para asi formar el fondo*/
+}
+
+nav{
+    background-color: transparent;
+    position: relative;
+}
+
+.regress{
+    margin: 10px;
+    width: 90px;
+    height: 30px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: .5s;
+    background-color: #fff;
+    color: #000;
+}
+
+.regress:hover{        
+    font-size: 17px;
+}
+
+.descripcion{
+    background-color: #fff;
+    width: 80%;
+    height: 100%;
+	max-width: 1100px;
+    display: flex;
+	margin: auto;
+    flex-wrap: wrap;
+}
+
+.descripcion h2{
+    margin-left: auto;
+    margin-right: auto;     /*sirve para alinear el texto en el centro*/
+    font-size: 50px;
+    padding: 20px;
+}
+
+.descripcion h3{
+    text-align: center;
+    font-size: 26px;
+    margin-bottom: 30px;
+}
+
+.sub_descripcion{
+    border: 2px solid #000;     /*sirve para darle un vorde de color negro al boton y asi sea mas visible*/
+    margin: 2%;
+    padding: 1px;
+}
+
+.sub_descripcion h4{
+    font-size: 30px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+
+.sub_descripcion p{
+    font-size: 18px;
+    margin-bottom: 30px;
+    margin-left: 5px;
+
+}
+
+/*--------------------------*/

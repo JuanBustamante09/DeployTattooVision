@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/logop.jpeg"> 
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <link rel="stylesheet" href="css/login_register.css">
+    <title>TattooVision</title>
+</head>
+
+<body>
+    <div class="fondo"></div>
+    <!----formulario de inicio de sesion---->
+        <form action="pagina_principal.html" method="post" class="form_login">
+            <img class="log" src="img/fondo2.2.png">
+            <img class="loga" src="img/logop.jpeg">
+            <div class="row">
+                <div class="input-field col s12">
+                    <input type="email" id="email" name="correo" class="validate">
+                    <label for="email">Correo Electronico</label>
+                    <span class="helper-text" data-error="Incorrecto" data-success="right">Helper text</span>
+                </div>
+                <div class="input-field col s12">
+                    <input type="password" id="contra" name="clave" class="validate">
+                    <label for="contra">Contraseña</label>
+                </div>
+            </div>
+            <center><button class="btn waves-effect waves-light form__submit" type="submit" onclick="validar()" name="action" id="enviar">Iniciar Sesión</button></center>
+
+            <p class="login">¿No tienes Cuenta?<a href="register.html"><i>Registrarse</i></a></p>
+            <br>
+        </form> 
+
+    <script src="js/jquery-3.6.1.min.js"></script>
+    <script src="js/materialize.min.js"></script>
+    <script src="js/sweetalert2.js"></script>
+</body>
+</html>

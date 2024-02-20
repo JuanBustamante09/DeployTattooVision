@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+} 
+
+body{
+    background-image: url(../img/fondo2.2.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: brightness(50%);;
+    
+}
+
+
+/*barra de navegacion*/
+::-webkit-scrollbar{
+    width: 8px;
+}
+
+::-webkit-scrollbar:hover{
+    width: 10px;
+}
+
+::-webkit-scrollbar-track{
+    background: #fff;
+}
+
+::-webkit-scrollbar-thumb{
+    background: #AAAAAA;
+    border-radius: 5px;
+}
+/*-------------------form de agendar---------------------*/
+
+.form_cita{
+    background: #fff;
+    width: 378px;
+    height: 100vh;
+    margin: -36rem 0% 2% 53%;
+    position: relative;
+}
+
+#enviar{
+    display: block;
+    margin: 10px auto;
+    width: 20rem;
+    height: 40px;
+    border: 1px solid #000;
+    border-radius: 3px; /*lo que hace es darle un borde redondeado en todos los extremos del boton*/
+    font-size: 14px;
+    cursor: pointer;
+    transition: .5s; 
+    font-weight: bold;
+    background-color: transparent;
+    color: #000;
+}
+
+#enviar:hover{  /*el :hover hace que ocurra un efecto cuando pasamos el mouse por ese elemento*/
+    font-size: 15px;
+    background-color: #dadada;
+}
+
+#botonf{
+    background-color: transparent;
+    box-shadow: none;
+}
+
+#botonf span{
+    color: #000;
+    margin-left: -45px;
+}
+/*-------------------------------------*/
+/*----------clases generales-----------*/
+.log{
+    width: 378px;
+    height: 250px;
+    clip-path: polygon(0 0, 100% 0, 100% 70%, 0% 100%);
+}
+
+.loga{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    margin: 42% -62%;
+}
+
+.agendar{
+    overflow-y: scroll;
+    height: 310px;
+
+}
+
+a:link{                 
+    color: #246edd;   
+}
+
+a:visited{
+    color: #4796fd;       /*a: lo que hace es indicarle ala pagina los estados que va a tener el link*/
+}
+
+a:active{
+    color: #90bffd;
+}
+
+.descrip{
+    background-color: transparent;
+    width: 500px;
+    height: 550px;
+    position: relative;
+    margin: 47px 1rem;
+}
+
+/*efecto maquina de escribir*/
+.titulo{
+    position: relative;
+    color: #fff;
+    padding: 30px 30px 10px 30px;
+    font-size: 42px;
+    display: block;
+    font-family: monospace;
+    white-space: nowrap;
+    border-right: 4px solid;
+    width: 15ch;
+    animation: typing 10s infinite alternate steps(15), blink 10s infinite step-end alternate;
+    overflow: hidden;
+}
+
+@keyframes typing {
+    from { width: 0;
+     }
+}
+
+@keyframes blink {
+    50% { border-color: transparent}
+}
+/*------------------------------*/
+
+.text{
+    font-size: 22px;
+    padding-left: 30px;
+    color: #fff;
+}
+
+.video{
+    width: 30vw;
+    margin: 20px 30px;
+}
+
+nav{
+    background-color: #fff;
+    opacity: .3;
+    position: relative;
+}
+
+.menus{
+    background-color: #030244;
+}
+
+.regress{
+    margin: 10px;
+    width: 90px;
+    height: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .5s;
+    background-color: #fff;
+    color: #000;
+    border: 2px solid #000;
+}
+
+.regress:hover{        
+    font-size: 17px;
+}
+
+@media only screen and (max-width:840px) {
+    .descrip{
+        position: relative;
+        margin: 47px auto;
+        text-align: center;
+
+    }
+
+    .video{
+        width: 40vw;
+        margin: 20px auto;
+    }
+
+    .titulo{
+        font-size: 40px;
+        margin-left: 40px;
+    }
+
+    .form_cita{
+        margin: 15% auto;
+        position: relative;
+
+    }
+}
+

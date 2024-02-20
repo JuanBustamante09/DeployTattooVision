@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="icon" href="img/logop.jpeg">
+    <link rel="stylesheet" href="css/agendar_citas.css">
+    <link rel="stylesheet" href="css/materialize.min.css">
+    
+    <title>TattooVision</title>
+</head>
+<body> 
+    <nav class="menus">
+        <a href="pagina_principal.html"><button class="regress">Regresar</button></a>
+        <a href="">agendar cita</a>
+    </nav>
+    <a href="">ver citas agendadas</a>
+    
+    <div class="descrip">
+        <h1 class="titulo">Agenda tu cita</h1>
+        <p class="text">Aqui podras agendar tu cita llenando<br>el formulario con la informacion que<br> te pide los distintos campos para asi<br> tener una informacion clara y concisa<br> del tatuaje que te quieres hacer y asi el<br> cliente reciba la mejor atencion y servicio<br> a la hora de tatuarse con nosotros.</p>
+        <video src="img/video.mp4" muted loop autoplay class="video"></video>
+ 
+    </div>
+                <!----formulario de registrarse---->
+    <form  class="form_cita">
+        <img class="log" src="img/imagen1.png">
+        <img class="loga" src="img/logop.jpeg">
+
+        <div class="row agendar">
+            <div class="input-field col s12">
+                <i class="material-icons prefix">date_range</i>
+                <label for="date">Fecha Cita</label>
+                <input type="text" class="datepicker" id="date" name="fecha">
+            </div>
+            <div class="input-field col s12">
+                <i class="material-icons prefix">access_time</i>
+                <label for="time">Hora Cita</label>
+                <input type="text" class="timepicker" id="time" name="hora">
+            </div>
+            <div class="file-field input-field col s12">
+                <div class="btn" id="botonf">
+                    <span><i class="material-icons prefix">archive</i></span>
+                  <input type="file" id="file" multiple >
+                </div>
+                <div class="file-path-wrapper">
+                  <input class="file-path validate" type="text"  id="file" placeholder="Upload one or more files">
+                </div>
+            </div>
+            <div class="input-field col s12">
+                <i class="material-icons prefix">comment</i>
+                <textarea id="textarea1" class="materialize-textarea" name="comentario"></textarea>
+                <label for="textarea1">¿Cuéntanos que te quieres hacer?</label>
+            </div>
+        </div>
+        <center><button class="btn waves-effect waves-light form__submit1" type="submit" name="agendar" id="enviar" onclick="validarExt()">Agendar Cita</button></center>
+        
+    </form>
+    <!-- <?php
+        include('agendamiento.php');
+    ?> -->
+
+    
+    <script src="js/jquery-3.6.1.min.js"></script>
+    <script src="js/materialize.min.js"></script>
+    <script src="js/sweetalert2.js"></script>
+    <script src="js/script.js"></script>
+
+    <script> 
+        $(document).ready(function(){
+        $('.datepicker').datepicker();
+        $('.timepicker').timepicker();
+        });
+      </script>
+</body>
+</html>

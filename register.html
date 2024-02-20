@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/logop.jpeg"> 
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <link rel="stylesheet" href="css/login_register.css">
+    <link rel="stylesheet" href="css/validar.css">
+    <link rel="stylesheet" href="css/alertify.min.css">
+    <link rel="stylesheet" href="css/themes/default.css">
+    <script src="js/alertify.min.js"></script>
+    <script src="js/validar.js"></script>
+    <title>TattooVision</title>
+</head>
+<body> 
+    <!-- <?php
+        include('registrar.php');
+    ?> -->
+    <form action="index.html" class="form_register" method="post">
+        <img class="log2" src="img/fondo2.2.png">
+        <img class="loga" src="img/logop.jpeg">
+        <div class="row cont"> 
+            <div class="input-field col s12">
+                <input type="text" id="input_text" name="nombres" class="validate">
+                <label for="input_text">Nombres</label>
+            </div>
+            <div class="input-field col s12">
+                <input type="text" id="input_text" name="apellidos" class="validate">
+                <label for="input_text">Apellidos</label>
+            </div>
+            <div class="input-field col s12">
+                <input type="number" id="input_text" name="telefono" class="validate">
+                <label for="input_text">Telefono</label>
+            </div>
+            <div class="input-field col s12">
+                <input type="email" id="email" name="correo" class="validate">
+                <label for="correo">Correo Electronico</label>
+                <span class="helper-text" data-error="Incorrecto" data-success="right">Helper text</span>
+            </div>
+            <div class="Password">
+                <div class="input-field col s12">
+                    <input type="password" autocomplete="off" id="new_contra" name="clave" class="validate">
+                    <label for="clave">Nueva Contraseña</label>
+                </div>
+                <br><br>
+                <p class="invalid">Minimo 1 letra minuscula</p>
+                <p class="invalid">Minimo 1 letra mayuscula</p>
+                <p class="invalid">Minimo 1 numero</p>
+                <p class="invalid">Minimo 8 caracteres</p>
+            </div>
+            <br>
+        </div>
+        <div class="terminos">
+            <p>
+                <label>
+                <input type="checkbox"  id="tyc" onclick="verifica()" required>
+                <span>Estoy de acuerdo con los <a onclick="verifica()"><b>Terminos y Condiciones</b></span>
+                </label>
+            </p>
+        </div>
+        <center><button class="btn waves-effect waves-light form__submit1" type="submit" name="registrarse" id="registrarse">Registarse</button></center>
+        
+        <p class="login1"><a href=""></a>¿Ya tienes Cuenta?<a href="index.html"><i>Iniciar Sesión</i></a></p>
+        <br>
+    </form>
+
+    <!-->tyc----------------------------------------->
+    <div id="la">
+        Firmado el siguiente acuerdo, reconosco que tuve la oportunidad plena de resolver todas mis preguntas con respecto a obtener un tatuaje y que todas mis dudas fueran resueltas con satisfaccion y estoy de acuerdo con ello.
+        Por favor responda con sus iniciales frente a cada iten a continuacion­:<br>
+        1).Si tengo alguna condicion, que pueda afectar a mi tatuaje, avisare de inmediato ami artista, no estoy en estado de embarazo ni lactando, yo no esto en influencias de drogas ni alcohol.<br>
+        2).No tengo ninguna condicion medica, ni enfermedades de la piel tales como y no limitadas A: acne, mala cicatrisacion (queloide), eczema, psoriasis, verrugas o comezon, le dejare saber de ello a mi artista.<br>
+        3).Reconosco que no es poccible que los funcionarios de este tattoo, determinen si yo sufro de alergias a los pigmentos (tintas) usados en mi tatuaje y asumo la responsabilidad total y el riesgo de dicha posible reaccion.<br>
+        4).Reconosco que siempre es posible algun tipo de infeccion como resultado de la obtencion de un tatuaje, sobre todo, cuando no sigo las instrucciones y recomendaciones que me an dado sobre el cuidado que debo tener con el tatuaje, reconosco que cualquier retoque producto de mi neglijencia, correra bajo mis expensas.<br>
+        5).Entiendo que pueden existir variaciones del color de mi tatuaje, debido al emvejecimiento natiral y la mezcla de los pigmentos con las diferentes tonalidades de la piel.<br>
+        6).Entiendo que, si obtengo algun tratamiento en la piel como depilacion laser, cirugias plasticas, pueden resultar en un cambio drastico en mi tatuaje.<br>
+        7).Reconosco que este procedimiento, es un cambio definitivo en mi apariencia y que la decicion a sido tomada concientemente pormi y nadie me a obligado a hacerlo, declaro que no tengo ningua condicion ficicica,mental ni parte ni parde que pueda afectar mi toma de decisiones de manera racional.<br>
+        8).D eclaro que tengo la mayoria de edad legal (18 años) necesaria para la obtencion de un tatuaje y lo he demostrado con mi documento legal de identidad a los representantes de este etudio tattoo vision.<br>
+        9).Apruebototalmente el diseño que me sera tatuado.<br>
+        10).Acepto ser compartido en videos /fotos tomadas por este estudio tattoo vision y utilizados como material publicitario.<br>
+        11).Entiendo peerfectamente que mi deposito no es reembolsable bajp ninguna circuntancia.<br>
+
+        Formato asistente nuevos clientes:<br>
+
+        muchas gracias por contactarse con David Ramerez 
+        a continuacion, le pido le atentamente los requisitos para separar tu cita con David Ramirez tattoo vision:<br>
+        1 La persona que se va a tatuar (colector de tatuajes) debe tener 18 años de edad.<br>
+        2  E l tatuale no puede ser retoques de anteriores tatuajes, exepto ir a realizar un cover up (tapar una pieza).<br>
+        3 Para separar cita debe realizar un depocito via "tarjeta debito y credito","nequi"y"cuenta de ahorro bancolombia" de minimo $ 50.000mil pesos.<br>
+        4 Realizado el depocito, debe enviar la siguiente informacion al siguiente a este numero 312 863 4579:<br>
+        nombre completo, dos fotos con las ideas del tatuaje que te quieres hacer, una foto del area de cuerpo donde se quiere realizar el tatuaje.<br>
+        5 Si el tatuaje requiere de varias sesiones, el depocito sera descontado del precio de la ultima sesion realizada.<br>
+        6 Este depocito incluye los diseños, si el primero de ellos no es de tu interes, cambiaremos las cosas que no gusten para hacer un segundo diseño, en caso de que ed segundo diseño no sea de tu interes, se solicitara un nuevo depocito.<br>
+        7 En la fecha acordada para la cita la persona a tatuarse solo podra asistir con un solo acompañanate.<br>
+        posdata 1.Actualmente David Ramirez tattoo vision tiene citas disponibles para las siguientes fechas, para enviarte los paos a seguir.<br>
+        
+        </div>
+        <!------------------------------------------>
+
+    <script src="js/jquery-3.6.1.min.js"></script>
+    <script src="js/materialize.min.js"></script>
+    <script src="js/sweetalert2.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+</html>

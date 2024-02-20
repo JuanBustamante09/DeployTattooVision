@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+    scroll-padding: 63px;
+}
+
+body {
+    background-color: #111;
+    column-count: 4;
+    column-gap: 1rem;
+    padding: 1rem;
+    overflow-x: hidden;
+}
+
+/*---barra de navegacion---*/
+::-webkit-scrollbar{
+    width: 5px;
+}
+
+::-webkit-scrollbar:hover{
+    width: 10px;
+}
+
+::-webkit-scrollbar-track{
+    background-image: linear-gradient(135deg, rgb(0, 0, 0) 0%, #051644 130%);
+
+}
+
+::-webkit-scrollbar-thumb{
+    background: #AAAAAA;
+    border-radius: 10px;
+}
+/*----------------------------*/
+/* ------------------------- */
+/* Estilos Generales */
+/* ------------------------- */
+
+nav{
+    background-color: transparent;
+    position: relative;
+}
+
+.regress{
+    margin: 10px;
+    width: 90px;
+    height: 30px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: .5s;
+    background-color: #fff;
+    color: #000;
+    margin-bottom: 50px;
+}
+
+.regress:hover{        
+    font-size: 17px;
+}
+
+h2 {
+    text-align: left;
+    font-size: 80px;
+    line-height: 80px;
+    color: transparent;
+    margin: -22px 0 50px 0;
+    -webkit-text-stroke: 1px #fff; 
+    background: url(../img/back.png);   /*ajusta esa imagen dentro del texto para despue activar la animacion con el keyframes*/
+    -webkit-background-clip: text;
+    background-position: 0;
+    animation: back 30s linear infinite;
+}
+
+.txtm{
+    font-size: 60px;
+}
+.txtt{
+    font-size: 58px;
+}
+.txtj{
+    font-size: 75px;
+    line-height: 70px;
+}
+.txtn{
+    font-size: 45px;
+    line-height: 55px;
+}
+
+@keyframes back {
+    100% {
+        background-position: 2000px 0; /*le indica desde que posicion va a empezar la animacion*/
+    }
+    
+}
+
+img {
+    width: 100%;
+    margin-bottom: 0.8rem;
+    opacity: 0.7;
+    transition: 0.4s ease;
+    outline: 2px solid #fff;
+    outline-offset: -10px;
+    filter: grayscale(50%)
+}
+
+img:hover {
+    opacity: 1;
+    transform: scale(1.01);
+    filter: grayscale(0)
+}
+
+@media only screen and (min-width: 1560px) {
+    body {
+        column-count: 5;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    body {
+        column-count: 3;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+        column-count: 2;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    body {
+        column-count: 1;
+    }
+}
+
+/*---------------------------------------------------------*/

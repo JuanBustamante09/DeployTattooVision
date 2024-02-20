@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="icon" href="img/logop.jpeg">
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <link rel="stylesheet" href="css/citas/citas.css">
+    <title>TattooVision</title>
+</head>
+<body>
+    <header class="encabezado">
+        <a href="{{route('agendar_citas')}}"><button>regresar</button></a>
+        <h1 class="hea">Citas agendadas</h1>
+    </header>    
+<div class="contenedor">
+    <div class="card">
+        <div class="img-card">
+            <p class="id">1</p>
+            <img src="img/r23.jpg" alt="">
+            <p class="tit">Tatuaje</p>
+        </div>
+        <div class="content">
+            <div class="text">
+                <p><b>Fecha Cita:</b><br>Feb 28/2023</p>
+                <br>
+                <p><b>Hora Cita:</b><br>12:30 pm</p>
+                <br>
+                <p><b>Idea Tattoo:</b><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim omnis eaque, minima accusantium minus adipisci ad repellendus, earum nulla voluptas, dicta sunt. Earum veritatis odit obcaecati quibusdam ducimus necessitatibus debitis. beatae. Nam deserunt officiis numquam?</p>
+                <br>
+                <a href="{{ route('updatecitas', $citas->IdCita) }}" ><button class="btnedit">Editar</button></a>
+                <a href="{{ route('deletecitas', $citas->IdCita) }}" ><button class="btnelim">Eliminar</button></a>
+            </div>
+        </div>
+    </div>
+    <div class="card">
+        <div class="img-card">
+            <img src="img/r11.jpg" alt="">
+        </div>
+        <div class="content">
+            <div class="text">
+                <p><b>Fecha Cita:</b><br>Feb 28/2023</p>
+                <br>
+                <p><b>Hora Cita:</b><br>12:30 pm</p>
+                <br>
+                <p><b>Idea Tattoo:</b><br> Lorem ipsum dolor sit amet, consecte unde? oadipiribus eos, iste ab, at aspernatur enim qua</p>
+                <br>
+                <a href="{{ route('updatecitas', $citas->IdCita) }}" ><button class="btnedit">Editar</button></a>
+                <a href="{{ route('deletecitas', $citas->IdCita) }}" ><button class="btnelim">Eliminar</button></a>
+            </div>
+        </div>
+    </div>
+    <div class="card">
+        <div class="img-card">
+            <img src="img/r26.jpg" alt="">
+        </div>
+        <div class="content">
+            <div class="text">
+                <p><b>Fecha Cita:</b><br>Feb 28/2023</p>
+                <br>
+                <p><b>Hora Cita:</b><br>12:30 pm</p>
+                <br>
+                <p><b>Idea Tattoo:</b><br> at aspernatur enim quaerat veritatis veniam bea</p>
+                <br>
+                <a href="{{ route('updatecitas', $citas->IdCita) }}" ><button class="btnedit">Editar</button></a>
+                <a href="{{ route('deletecitas', $citas->IdCita) }}" ><button class="btnelim">Eliminar</button></a>
+            </div>
+        </div>
+    </div>
+    <div class="card">
+        <div class="img-card">
+            <img src="img/r13.jpg" alt="">
+        </div>
+        <div class="content">
+            <div class="text">
+                <p><b>Fecha Cita:</b><br>Feb 28/2023</p>
+                <br>
+                <p><b>Hora Cita:</b><br>12:30 pm</p>
+                <br>
+                <p class="idea"><b>Idea Tattoo:</b><br> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex, sapiente recusandae earum quaerat beatae iure? Et necessitatibus reiciendis neque aliquam pariatur odit, nam cumque laudantium ea quaerat maiores voluptate amet. numnbnb</p>
+                <br>
+                <a href="{{ route('updatecitas', $citas->IdCita) }}" ><button class="btnedit">Editar</button></a>
+                <a href="{{ route('deletecitas', $citas->IdCita) }}" ><button class="btnelim">Eliminar</button></a>
+            </div>
+        </div>
+    </div>
+    <div class="card">
+        <div class="img-card">
+            <img src="img/r26.jpg" alt="">
+        </div>
+        <div class="content">
+            <div class="text">
+                <p><b>Fecha Cita:</b><br>Feb 28/2023</p>
+                <br>
+                <p><b>Hora Cita:</b><br>12:30 pm</p>
+                <br>
+                <p><b>Idea Tattoo:</b><br> at aspernatur enim quaerat veritatis veniam bea</p>
+                <br>
+                <a href="{{ route('updatecitas', $citas->IdCita) }}" ><button class="btnedit">Editar</button></a>
+                <a href="{{ route('deletecitas', $citas->IdCita) }}" ><button class="btnelim">Eliminar</button></a>
+            </div>
+        </div>
+    </div>
+    <div class="card">
+        <div class="img-card">
+            <img src="img/r13.jpg" alt="">
+        </div>
+        <div class="content">
+            <div class="text">
+                <p><b>Fecha Cita:</b><br>Feb 28/2023</p>
+                <br>
+                <p><b>Hora Cita:</b><br>12:30 pm</p>
+                <br>
+                <p class="idea"><b>Idea Tattoo:</b><br> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex, sapiente recusandae earum quaerat beatae iure? Et necessitatibus reiciendis neque aliquam pariatur odit, nam cumque laudantium ea quaerat maiores voluptate amet. numnbnb</p>
+                <br>
+                <a href="{{ route('updatecitas', $citas->IdCita) }}" ><button class="btnedit">Editar</button></a>
+                <a href="{{ route('deletecitas', $citas->IdCita) }}" ><button class="btnelim">Eliminar</button></a>
+            </div>
+        </div>
+    </div>
+    <div class="card">
+        <div class="img-card">
+            <img src="img/r26.jpg" alt="">
+        </div>
+        <div class="content">
+            <div class="text">
+                <p><b>Fecha Cita:</b><br>Feb 28/2023</p>
+                <br>
+                <p><b>Hora Cita:</b><br>12:30 pm</p>
+                <br>
+                <p><b>Idea Tattoo:</b><br> at aspernatur enim quaerat veritatis veniam bea</p>
+                <br>
+                <a href="{{ route('updatecitas', $citas->IdCita) }}" ><button class="btnedit">Editar</button></a>
+                <a href="{{ route('deletecitas', $citas->IdCita) }}" ><button class="btnelim">Eliminar</button></a>
+            </div>
+        </div>
+    </div>
+    <div class="card">
+        <div class="img-card">
+            <img src="img/r13.jpg" alt="">
+        </div>
+        <div class="content">
+            <div class="text">
+                <p><b>Fecha Cita:</b><br>Feb 28/2023</p>
+                <br>
+                <p><b>Hora Cita:</b><br>12:30 pm</p>
+                <br>
+                <p class="idea"><b>Idea Tattoo:</b><br> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex, sapiente recusandae earum quaerat beatae iure? Et necessitatibus reiciendis neque aliquam pariatur odit, nam cumque laudantium ea quaerat maiores voluptate amet. numnbnb</p>
+                <br>
+                <a href="{{ route('updatecitas', $citas->IdCita) }}" ><button class="btnedit">Editar</button></a>
+                <a href="{{ route('deletecitas', $citas->IdCita) }}" ><button class="btnelim">Eliminar</button></a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="opt">
+    <div class="fixed-action-btn my-custom-btn">
+        <a class="btn-floating btn-large black pulse">
+          <i class="large material-icons">mode_edit</i>
+        </a>
+        <ul>
+          <li><a class="btn-floating indigo darken-4"><i class="material-icons">insert_chart</i></a></li>
+          <li><a class="btn-floating yellow darken-1"><i class="material-icons">format_quote</i></a></li>
+          <li><a class="btn-floating green"><i class="material-icons">publish</i></a></li>
+          <li><a class="btn-floating blue"><i class="material-icons">attach_file</i></a></li>
+        </ul>
+      </div>
+</div>
+<script src="https://account.snatchbot.me/script.js"></script><script>window.sntchChat.Init(309011)</script>      
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.fixed-action-btn');
+    var instances = M.FloatingActionButton.init(elems, {
+      direction: 'left',
+      hoverEnabled: false
+    });
+  });
+    </script>
+    <script src="js/script.js"></script>
+</body>
+</html>
